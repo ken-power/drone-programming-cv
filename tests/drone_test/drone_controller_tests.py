@@ -19,6 +19,5 @@ class DroneControllerTests(unittest.TestCase):
         self.assertTrue(controller.drone.is_in_flight(), "Drone should be in the air now")
 
 
-
 if __name__ == '__main__':
     unittest.main()
