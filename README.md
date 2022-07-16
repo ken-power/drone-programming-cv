@@ -1,6 +1,9 @@
 # Programming Autonomous Drones: Computer Vision Use Cases
 This repository contains example computer vision use cases for autonomous drones. 
 
+# Basic Drone Use Cases
+* [Basic tests to connect to and control a drone](./drone_test)
+* [Color detection using the drone's camera](./color_detection)
 
 # References
 * The examples use the [Tello drone](https://www.ryzerobotics.com/tello) from [RYZE Robotics](https://www.ryzerobotics.com).
