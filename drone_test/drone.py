@@ -13,7 +13,7 @@ class Drone:
 
     def connect(self):
         # CONNECT TO TELLO
-        print("Connecting to Tello drone")
+        print(f"Connecting to drone '{self.drone_name}'")
         self.drone.connect()
         self.drone.for_back_velocity = 0
         self.drone.left_right_velocity = 0
@@ -64,4 +64,3 @@ class Drone:
             return True
         if constants.start_counter == 1:
             return False
-        
